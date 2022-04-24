@@ -10,7 +10,7 @@ navbarTogglerBtn.addEventListener('click', () => {
     }
 });
 
-// fixed navigation bar
+
 const header = document.querySelector('.header');
 window.addEventListener('scroll', () => {
     if(window.pageYOffset > 100){
