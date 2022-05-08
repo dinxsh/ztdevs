@@ -400,11 +400,11 @@ img{
     margin: 2rem 0;
 }
 .pricing-item p{
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 0.2rem;
+    font-weight: 400;
 }
 .pricing-item p span{
-    font-size: 4.4rem;
+    font-size: 3rem;
 }
 .pricing-item .btn{
     background-color: var(--old-lace-color);
@@ -701,3 +701,4 @@ img{
                 column-gap: 4rem;
     }
 }
+
