@@ -352,6 +352,16 @@ img{
 .feature-item:nth-child(4){
     background-color: var(--dark-color);
 }
+.feature-item:nth-child(5){
+    background-color: var(--red-color);
+}
+.feature-item:nth-child(6){
+    background-color: var(--gray-color);
+    color: var(--yellow-orange-color);
+}
+.feature-item:nth-child(7){
+    background-color: var(--dark-color);
+}
 
 /* testimonials */
 .testimonials-item{
