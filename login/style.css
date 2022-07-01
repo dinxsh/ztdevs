@@ -70,6 +70,7 @@ form.active {
 	transition-delay: .3s;
 }
 .title {
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 24px;
 	font-weight: 600;
 	margin-bottom: 20px;

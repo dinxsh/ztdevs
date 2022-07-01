@@ -695,7 +695,7 @@ img{
     .pricing-grid{
         grid-template-columns: repeat(3, 1fr);
         -webkit-column-gap: 4rem;
-           -moz-column-gap: 4rem;
+           -moz-column-gap: 4ritleem;
                 column-gap: 4rem;
     }
 }
