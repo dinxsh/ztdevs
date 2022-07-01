@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Feedback - Zeus-Tech</title>
+    <link rel = "stylesheet" href = "../style.css">
+    <link href="feedback.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>   
+<body>    
+    <header class = "header fixed-navbar" id = "header">
+        <nav class = "navbar flex">
+            <div class = "container flex">
+                <a href = "../index.html" class = "navbar-brand flex">                    
+                    <span>Zeus</span>
+                </a>
+                <button type = "button" class = "navbar-toggler flex">
+                    <img src = "../images/ham-menu-icon.png">
+                </button>
+
+                <div class = "navbar-collapse">
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "../index.html" class = "nav-link">Home</a>
+                        </li>                        
+                        <li class = "nav-item">
+                            <a href = "../index.html#service" class = "nav-link">Services</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Our team </a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "../index.html#pricing" class = "nav-link">Pricing</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "../contact/index.html" class = "nav-link">Contact</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "../login/index.html" class = "nav-link">Log-In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>         
+    </header>        
+        
+    <div class="feedback-container">        
+        <form action="/" type="post">            
+          <h2 class="text">Feedback</h2><hr><br>
+          <label for="name">First Name</label><br>
+          <input type="text" id="name" name="name" placeholder="Name"><br>
+          
+          <label for="lname">Email</label><br>
+          <input type="text" id="Email" name="Email" placeholder="Email"><br>
+
+          <label for="subject">Subject</label><br>
+          <textarea id="subject" name="subject" placeholder="Feedback" style="height:200px"></textarea>            
+
+          <input type="submit" value="Submit"><br><br>
+        </form>
+    </div>      
+
+</body>
+</html>

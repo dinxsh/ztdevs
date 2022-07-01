@@ -1,0 +1,43 @@
+  input[type=text], select, textarea {
+    width: 60%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+  }  
+   
+  input[type=text]:hover {
+    border: 1px solid cornflowerblue;
+  }
+
+  input[type=textarea]:hover {
+    border: 1px solid cornflowerblue;
+  }
+
+  input[type=submit] {
+    width: 60%;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }  
+    
+  .feedback-container {
+    margin-top:80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px lightgrey;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border:1px solid lightgrey;        
+  }
+
+  .text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:27px;
+  }
+  
