@@ -192,6 +192,7 @@ img{
     font-weight: 300;
     opacity: .9;
     padding: 1rem 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .input-group{
     margin: 1rem 0;
@@ -368,7 +369,7 @@ img{
     background-color: var(--gray-color);
     margin: 2rem 0;
     padding: 2rem 3rem;
-    text-align: center;
+    text-align: center;    
 }
 .testimonials-item .image{
     overflow: hidden;
