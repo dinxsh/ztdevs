@@ -2,23 +2,23 @@ const express = require("express")
 const router = express.Router();
 
 router.get('/', (request, response) => {              
-    response.render("../index.html")
+    response.render("../frontend/index.html")
 });
 
 router.get('/feedback', (request, response) => {              
-    response.render("../feedback/")
+    response.render("../frontend/feedback/")
 });
 
 router.get('/login', (request, response) => {              
-    response.render("../login/")
+    response.render("../frontend/login/")
 });
 
 router.get('/team', (request, response) => {              
-    response.render("../team/")
+    response.render("../frontend/team/")
 });
 
 router.get('/contact', (request, response) => {              
-    response.render("../contact/")
+    response.render("../frontend/contact/")
 });
 
 module.exports = router

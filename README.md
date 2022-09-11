@@ -6,13 +6,13 @@ hosted on - https://zeustechoffical.herokuapp.com/
 
 1) install all files
 
-2) run npm ```backend```
+2) run ```node backend```
 
 3) Done :)
 
 # Tech Stack ✔
 
-Built using Nodejs and Express
+Built using MERN and chakra-ui
 
 # Contribute 👾
 

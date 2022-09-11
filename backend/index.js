@@ -3,7 +3,7 @@ const path = require("path")
 const app = express()
 
 // style files loaded
-app.use(express.static(path.join(__dirname, '../')));
+app.use(express.static(path.join(__dirname, '../frontend')));
 app.set('view engine', 'html');
 app.engine('html', require('ejs').renderFile);
 

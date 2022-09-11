@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+	<title>Zeus Tech</title>
+</head>
+<body>
+	
+	<div class="container">
+		<form action="#" class="login active">
+			<h2 class="title">Login with your account</h2><br>
+			<div class="form-group">
+				<label for="email">Email</label>
+				<div class="input-group">
+					<input type="email" id="email" placeholder="Email address">
+					<i class='bx bx-envelope'></i>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="password">Password</label>
+				<div class="input-group">
+					<input type="password" pattern=".{8,}" id="password" placeholder=" Your password">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">At least 8 characters</span>
+			</div>
+			<button type="submit" class="btn-submit">Login</button>
+			<a href="#">Forgot password?</a>
+			<p>I don't have an account. <a href="#" onclick="switchForm('register', event)">Register</a></p>
+		</form>
+
+		<form action="#" class="register">
+			<h2 class="title">Register your account</h2>
+            <div class="form-group">
+				<label for="email">Name</label>
+				<div class="input-group">
+					<input type="Name" id="name" placeholder="Name">
+					<i class='bx bx-user'></i>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="email">Email</label>
+				<div class="input-group">
+					<input type="email" id="email" placeholder="Email address">
+					<i class='bx bx-envelope'></i>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="password">Password</label>
+				<div class="input-group">
+					<input type="password" pattern=".{8,}" id="password" placeholder="Your password">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">At least 8 characters</span>
+			</div>
+			<div class="form-group">
+				<label for="confirm-pass">Confirm Password</label>
+				<div class="input-group">
+					<input type="password" id="confirm-pass" placeholder="Enter password again">
+					<i class='bx bx-lock-alt' ></i>
+				</div>
+				<span class="help-text">Confirmed password field must be same as password field.</span>
+			</div>
+			<button type="submit" class="btn-submit">Register</button>
+			<p>I already have an account. <a href="#" onclick="switchForm('login', event)">Login</a></p>
+		</form>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
