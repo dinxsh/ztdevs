@@ -3,7 +3,7 @@ const router = express.Router();
 
 // crud operations
 router.get('/create', (request, response) => {                  
-    response.send("Searched Id = " + request.params.id)
+    response.send("Searched Name = " + request.params.name)
 });
 
 router.get('/update', (request, response) => {                  
