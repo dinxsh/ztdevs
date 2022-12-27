@@ -1,6 +1,8 @@
+[DEPRECATED]
+
 # Zeus Tech Company Website 🐱‍👤
 
-hosted on - https://zeustechoffical.herokuapp.com/
+hosted [here](https://ztdevs.herokuapp.com/)
 
 # Setup ⚙
 
