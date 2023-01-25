@@ -2,7 +2,7 @@
 
 # Zeus Tech Company Website 🐱‍👤
 
-hosted [here](https://ztdevs.herokuapp.com/)
+hosted [here](https://ztdevs.herokuapp.com/) [DEPRECATED] (kindly set it up on your local pc instead)
 
 # Setup ⚙
 
